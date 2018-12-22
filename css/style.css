@@ -1,0 +1,116 @@
+.nav {
+	font-family: "Avenir LT Std 65 Medium";
+	padding: 15px;
+	background: white;
+	position: sticky;
+	top:0;
+}
+
+.button {
+	color: black;
+	padding: 0px 0px;
+	border-right: 1px black solid;
+}
+
+.button a {
+	color: black;
+}
+
+#menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+	font-size: 12px;
+}
+
+.whole {
+	background: url(../images/journ.png);
+	padding: 200px;
+	background-repeat:no-repeat;
+	background-position:cover;
+	background-attachment: fixed;
+	font-family: "Avenir LT Std 65 Medium";
+	font-size: 50px;
+	color: white;
+}
+
+#resume {
+	border: 2px solid white;
+	padding: 30px;
+}
+
+#about {
+	font-size: 30px;
+	font-family: "Avenir LT Std 65 Medium";	
+}
+
+.hehe {
+	padding: 10px;
+	
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 200px;
+}
+
+.in {
+	font-family: "Avenir LT Std 45 Book";
+	font-size: 18px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.objective {
+	background: #ededed;
+	padding: 10px 200px;
+	font-family: "Avenir LT Std 45 Book";
+}
+
+.skills {
+	padding: 10px 200px;
+	font-family: "Avenir LT Std 45 Book";
+}
+
+.exp {
+	background: #ededed;
+	padding: 10px;
+	font-family:"Avenir LT Std 45 Book";
+	
+}
+
+.work {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	padding: 10px 150px;
+}
+
+.news {
+	font-family: "Avenir LT Std 55 Roman";
+}
+
+.first {
+	font-family: "Avenir LT Std 45 Book";
+}
+
+.educ {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	padding: 10px 150px;
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+#M {
+	font-family: "Avenir LT Std 45 Book";
+}
